@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.usuario.pr10_sheets.UserImageFragment">
+
+<include layout="@layout/user_image_fragment_content"/>
+
+<include
+    android:id="@+id/rlPanel"
+    layout="@layout/fragment_user_image_bottom_sheet"/>
+
+<android.support.design.widget.FloatingActionButton
+    android:id="@+id/fab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:src="@drawable/ic_search_black_24dp"
+    app:layout_anchor="@+id/rlPanel"
+    app:layout_anchorGravity="top|end"/>
+
+</android.support.design.widget.CoordinatorLayout>

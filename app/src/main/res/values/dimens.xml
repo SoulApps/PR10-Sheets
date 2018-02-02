@@ -2,4 +2,7 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fragment_bottomsheet_flBottomSheetRoot">20dp</dimen>
+    <dimen name="fragment_user_image_bottom_sheet_rlPanel_padding">10dp</dimen>
+    <dimen name="fragment_user_image_bottom_sheet_rlPanel_peekHeight">80dp</dimen>
 </resources>

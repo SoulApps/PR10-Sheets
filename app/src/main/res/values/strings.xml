@@ -6,4 +6,10 @@
     <string name="navigation_userDataText">User data</string>
     <string name="navigation_imageText">User image</string>
     <string name="navigation_aboutMeText">About me</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_bottomsheet_options">Options</string>
+    <string name="fragment_bottomsheet_mnuSave">Save</string>
+    <string name="fragment_bottomsheet_mnuCall">Call</string>
 </resources>

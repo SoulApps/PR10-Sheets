@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnuTitle"
+        android:title="@string/fragment_bottomsheet_options">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/mnuSave"
+                    android:icon="@drawable/ic_save_black_24dp"
+                    android:title="@string/fragment_bottomsheet_mnuSave"/>
+                <item
+                    android:id="@+id/mnuCall"
+                    android:icon="@drawable/ic_call_black_24dp"
+                    android:title="@string/fragment_bottomsheet_mnuCall"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>
