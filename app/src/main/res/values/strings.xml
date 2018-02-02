@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PR10-Sheets</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="navigation_userDataText">User data</string>
+    <string name="navigation_imageText">User image</string>
+    <string name="navigation_aboutMeText">About me</string>
+</resources>
