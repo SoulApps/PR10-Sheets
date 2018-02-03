@@ -12,4 +12,6 @@
     <string name="fragment_bottomsheet_options">Options</string>
     <string name="fragment_bottomsheet_mnuSave">Save</string>
     <string name="fragment_bottomsheet_mnuCall">Call</string>
+    <string name="fragment_data_btnEditUserText">Edit</string>
+    <string name="activity_edit_btnOptionsText">Options</string>
 </resources>

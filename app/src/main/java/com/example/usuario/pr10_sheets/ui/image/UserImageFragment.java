@@ -1,4 +1,4 @@
-package com.example.usuario.pr10_sheets;
+package com.example.usuario.pr10_sheets.ui.image;
 
 
 import android.os.Bundle;
@@ -7,14 +7,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.usuario.pr10_sheets.R;
+
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class AboutMeFragment extends Fragment {
+public class UserImageFragment extends Fragment {
 
 
-    public AboutMeFragment() {
+    public UserImageFragment() {
         // Required empty public constructor
     }
 
@@ -23,7 +25,7 @@ public class AboutMeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_about_me, container, false);
+        return inflater.inflate(R.layout.fragment_user_image, container, false);
     }
 
 }

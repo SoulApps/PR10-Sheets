@@ -5,7 +5,16 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.usuario.pr10_sheets.MainActivity">
+    tools:context="com.example.usuario.pr10_sheets.ui.main.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/actity_main_frlSpace"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
