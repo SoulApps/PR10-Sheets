@@ -95,7 +95,7 @@ public class DataFragment extends Fragment {
     public void obBtnEditUserClicked() {
         // if we click on btnEdit, we call to EditUserActivity with the user data
         // send the new user
-        //EditUserActivity.startForResult(getActivity(),RC_USER_DATA,viewModel.getUser().getValue());
-        IntentUtils.startForResult(getActivity(),EditUserActivity.class,RC_USER_DATA,EXTRA_USER_DATA,viewModel.getUser().getValue());
+        EditUserActivity.startForResult(getActivity(),RC_USER_DATA,viewModel.getUser().getValue());
+        //IntentUtils.startForResult(getActivity(),EditUserActivity.class,RC_USER_DATA,EXTRA_USER_DATA,viewModel.getUser().getValue());
     }
 }

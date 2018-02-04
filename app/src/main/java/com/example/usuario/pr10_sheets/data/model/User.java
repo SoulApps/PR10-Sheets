@@ -8,23 +8,16 @@ public class User implements Parcelable {
     private String name;
     private String phone;
     private String imageURL;
+    private String url;
 
-    @Override
-    public int describeContents() {
-        return 0;
+    public User() {
     }
 
-    @Override
-    public void writeToParcel(Parcel dest, int flags) {
-        dest.writeString(this.name);
-        dest.writeString(this.phone);
-        dest.writeString(this.imageURL);
-    }
-
-    public User(String name, String phone, String imageURL) {
+    public User(String name, String phone, String imageURL, String url) {
         this.name = name;
         this.phone = phone;
         this.imageURL = imageURL;
+        this.url = url;
     }
 
     public String getName() {
@@ -51,10 +44,33 @@ public class User implements Parcelable {
         this.imageURL = imageURL;
     }
 
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(this.name);
+        dest.writeString(this.phone);
+        dest.writeString(this.imageURL);
+        dest.writeString(this.url);
+    }
+
+
     protected User(Parcel in) {
         this.name = in.readString();
         this.phone = in.readString();
         this.imageURL = in.readString();
+        this.url = in.readString();
     }
 
     public static final Parcelable.Creator<User> CREATOR = new Parcelable.Creator<User>() {

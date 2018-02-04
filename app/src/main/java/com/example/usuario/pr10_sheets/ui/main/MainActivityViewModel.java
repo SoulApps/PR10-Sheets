@@ -19,7 +19,8 @@ public class MainActivityViewModel extends ViewModel {
         if (user == null) {
             user = new MutableLiveData<User>();
             user.setValue(new User("Baldomero Llégate ligero", "666666666",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Baldomero_Espartero.jpg/1200px-Baldomero_Espartero.jpg"));
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Baldomero_Espartero.jpg/1200px-Baldomero_Espartero.jpg"
+                    ,"www.google.es"));
         }
         return user;
     }

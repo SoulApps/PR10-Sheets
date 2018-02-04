@@ -21,8 +21,6 @@ public class EditUserActivity extends AppCompatActivity {
 
 
     private static final String EXTRA_USER_DATA = "EXTRA_USER_DATA";
-    @BindView(R.id.toolbar)
-    Toolbar toolbar;
     @BindView(R.id.activity_edit_txtNombreUser)
     EditText activityEditTxtNombreUser;
     @BindView(R.id.activity_edit_txtUserPhone)
